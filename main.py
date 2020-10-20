@@ -1,7 +1,7 @@
 
-from tree_traversal import Node, printInorder, printPreorder, printPostorder
+from binary_tree_traversal import Node, printInorder, printPreorder, printPostorder
 
-from tree_insert import insert
+from binary_tree_insert import insert
 
 root = Node(1)
 
