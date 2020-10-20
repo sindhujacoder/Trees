@@ -15,6 +15,11 @@ Depth First Traversals:
 (c) Postorder (Left, Right, Root) : 4 5 2 3 1
 
 Breadth First or Level Order Traversal : 1 2 3 4 5
+
+All four traversals require O(n) time as they visit every node exactly once.
+
+Extra Space required for Level Order Traversal is O(w) where w is maximum width of Binary Tree. In level order traversal, queue one by one stores nodes of different level.
+Extra Space required for Depth First Traversals is O(h) where h is maximum height of Binary Tree. In Depth First Traversals, stack (or function call stack) stores all ancestors of a node.
 '''
 
 class Node:
